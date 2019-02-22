@@ -80,6 +80,59 @@
     
         <article class="post-abstract">
             <div class="post-title">
+                <h2><a class="post-title-link" href="/2019/02/22/Android模块化之研发DevOps重构/">Android模块化之研发DevOps重构</a></h2>
+            </div>
+            <div class="post-meta">
+                <span class="post-time">2019-02-22</span>
+                
+            </div>
+            <div class="post-content">
+                
+                    <p>项目模块化改造在去年实现了所有大业务模块的相互解耦，可在项目中修改gradle配置，实现构建整包时集成可选的模块。</p>
+<p>现在需要改造整个APP开发团队的协作方式，可称作为研发DevOps重构。</p>
+<p>理想的改造目标有：</p>
+<ol>
+<li>代码权限合理控制</li>
+<li>开发运行工程简单方便</li>
+<li>开发构建快速</li>
+<li>开发debug查找问题方便</li>
+<li>测试和生产打包灵活</li>
+</ol>
+<p>需要解决的几个问题包括：</p>
+<ol>
+<li>git仓库结构如何变化、权限如何控制</li>
+<li>maven仓库release、snapshot依赖灵活切换、上传简单</li>
+<li>开发过程中的各业务模块、基础模块的aar依赖和代码依赖的灵活切换</li>
+<li>jenkins持续构建的集成包配置、生产包配置、单独业务模块包的配置简单灵活</li>
+</ol>
+
+                
+            </div>
+        </article>
+    
+        <article class="post-abstract">
+            <div class="post-title">
+                <h2><a class="post-title-link" href="/2019/02/22/Android-App-Links之坑/">Android App Links之坑</a></h2>
+            </div>
+            <div class="post-meta">
+                <span class="post-time">2019-02-22</span>
+                
+            </div>
+            <div class="post-content">
+                
+                    <ul>
+<li>App Link VS Deep Link</li>
+<li>auto verify原理</li>
+<li>auto verify的防火墙之坑</li>
+<li>华为、小米等国内机器的测试结果</li>
+</ul>
+
+                
+            </div>
+        </article>
+    
+        <article class="post-abstract">
+            <div class="post-title">
                 <h2><a class="post-title-link" href="/2019/02/18/app-offline-web/">Android App离线web加载</a></h2>
             </div>
             <div class="post-meta">
